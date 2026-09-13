@@ -19,7 +19,11 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 > [!NOTE]
 > Code Apps requires use of development tools and running scripts, it's not for everyone.
-> If you're not comfortable with Code Apps and would prefer to try something more low-code, check out *Plans* where you can use AI to create an entire solution which can include Dataverse tables, canvas apps, model-driven apps, Power Pages sites, Power Automate flows, and Copilot Studio agents (it's actually very cool).
+>
+> If you're not comfortable with Code Apps and would prefer to try something more low-code, check out *Plans*.
+>
+> Plans use AI to create an entire solution which can include Dataverse tables, canvas apps, model-driven apps, Power Pages sites, Power Automate flows, and Copilot Studio agents (it's actually very cool).
+>
 > Learn more here: https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer
 
 ## Getting started
@@ -84,7 +88,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 1. Save the file, check the app in your browser, notice how the title has changed instantly. We didn't need to restart the app for the change to take effect. This is a useful time-saver when making changes to the app called *Hot Module Replacement (HMR)*. Make sure to impress everyone with your elite coding knowledge 😎
 
 > [!NOTE]
-> **Hang on, what is "Vite" and "React"?**
+> **Hang on, what are "Vite" and "React"?**
 >
 > Good question! *React* is a free and open-source front-end JavaScript library where we can build user interfaces based on components.
 >
