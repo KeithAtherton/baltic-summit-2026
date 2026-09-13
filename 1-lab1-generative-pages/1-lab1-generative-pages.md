@@ -2,7 +2,9 @@
 
 ## Setup
 
-Navigate to https://make.powerapps.com/, select the environment in the top-right which matches your username, for example: User01.
+Navigate to https://make.powerapps.com/, select the environment in the top-right which matches your username. For example, User01:
+
+![Environment selection](./assets/environment-selection.png)
 
 Set *Future Is Now Workshop* as your [preferred solution](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/preferred-solution#set-your-preferred-solution) to ensure your work is saved into that solution by default.
 
@@ -37,7 +39,7 @@ To see an example of this lab, open the *Future Is Now Workshop - Examples* solu
 
     ![Describe your page](./assets/describe-your-page.png)
 
-1. Let's check out the options:
+1. Let's check out some of the options:
 
     - Prompt box: The main input box which currently contains placeholder text "Describe the kind of page you want and type / to add data ..."
     - Suggested prompts: Above the prompt box, we have suggested prompts to help us get started. Select one of these to see it copied into the prompt box then read the full prompt to see how descriptive it is. When done, clear the prompt box and remove any tables it lists at the bottom of the prompt box.
@@ -55,9 +57,9 @@ To see an example of this lab, open the *Future Is Now Workshop - Examples* solu
 
 1. In the bottom-right, select +, Add table, select *Innovation Idea*.
 
-1. Select the Generate button in the bottom-right of the prompt box. The App Agent will begin work, it may take a while to complete.
+1. Select the *Generate* button in the bottom-right of the prompt box. The App Agent will begin work, it may take a while to complete.
 
-1. Notice that something called the *App Agent* plans and generates a page which may look like this. Congratulations, you have published a Generative Page! 🎉
+1. Notice that something called the *App Agent* plans and generates a page which may look like this. Congratulations, you have created a Generative Page! 🎉
 
     ![Generative page](./assets/generative-page-1.png)
 
@@ -70,9 +72,9 @@ To see an example of this lab, open the *Future Is Now Workshop - Examples* solu
 
 1. The *'*Describe your page*'* prompt experience has moved to a pane on the left side, with the generated page displayed to the right of it.
 
-1. In the prompt pane, you should see your prompt followed by the *App Agent* results. Expand *Agent Thoughts* and read through the steps.
+1. In the prompt pane, you should see your prompt followed by the *App Agent* results. Expand *Agent Thoughts* and quickly read through the steps.
 
-1. Now expand *Summary* and read through it.
+1. Now expand *Summary* and quickly read through it.
 
 1. On the right, the *Preview* tab shows the page.
 
