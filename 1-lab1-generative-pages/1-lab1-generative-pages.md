@@ -2,7 +2,7 @@
 
 ## Setup
 
-Navigate to https://make.powerapps.com/, select the environment in the top-right which matches your username, e.g. User01.
+Navigate to https://make.powerapps.com/, select the environment in the top-right which matches your username, for example: User01.
 
 Set *Future Is Now Workshop* as your [preferred solution](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/preferred-solution#set-your-preferred-solution) to ensure your work is saved into that solution by default.
 
