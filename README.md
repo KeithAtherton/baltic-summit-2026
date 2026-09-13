@@ -14,7 +14,7 @@ Ensure you have completed the [workshop prerequisites](0-workshop-prerequisites/
 
 ## 💾 How to save your work
 
-Ensure you [save your work](4-save-your-work\4-save-your-work.md) at the end of the workshop.
+Ensure you [save your work](4-save-your-work/4-save-your-work.md) at the end of the workshop.
 
 ## ☎️ Can I help?
 
