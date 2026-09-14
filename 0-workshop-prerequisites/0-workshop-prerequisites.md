@@ -23,7 +23,7 @@ If you haven't yet installed these, consider installing them during the lunch br
 - [Microsoft Teams](https://www.microsoft.com/en-gb/microsoft-teams/download-app)
 - Your IDE of choice. My preference is [Visual Studio Code](https://code.visualstudio.com/)
 - [Node.js (LTS version)](https://nodejs.org/)
-- [Git (accept all defaults)](https://git-scm.com/)
+- [Git](https://git-scm.com/) (accept all defaults on install)
 - Power Apps CLI. My preference is to install the [Visual Studio Code extension](https://learn.microsoft.com/en-us/power-platform/developer/howto/install-vs-code-extension#install-from-visual-studio-code-extensions)
 - If you don't have one already, create a [GitHub account](https://github.com/signup)
 
