@@ -65,7 +65,7 @@ To see an example of this lab, open the *Future Is Now Workshop - Examples* solu
 
     ![Generative page](./assets/generative-page-1.png)
 
-1. Save your changes often using the save button in the top-right of the screen.
+1. Save your changes often using the save button at the top-right of the screen.
 
 > [!NOTE]
 > If the page doesn't look right, don't worry, we'll try to fix it later.
