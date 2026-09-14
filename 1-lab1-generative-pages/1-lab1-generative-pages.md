@@ -136,12 +136,14 @@ To see an example of this lab, open the *Future Is Now Workshop - Examples* solu
 1. Try this prompt:
 
     ```
-    When I drop a card, show a large confetti animations with the message "CARD MOVED, WELL DONE LEGEND!"
+    When I drop a card, show a large confetti animation with the message "CARD MOVED, WELL DONE LEGEND!"
     ```
     
 1. Test it by dragging and dropping a card. Yeah, that's what I'm talking about!
 
     ![Card move effect](./assets/card-move-effect.png)
+
+1. If the confetti animation does not work, try a new prompt to try a different effect such as a large firework animation.
 
 ## Let's check the accessibility
 
