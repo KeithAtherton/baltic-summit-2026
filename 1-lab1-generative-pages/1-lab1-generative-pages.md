@@ -10,7 +10,7 @@ Set *Future Is Now Workshop* as your [preferred solution](https://learn.microsof
 
 If you get stuck on anything, ask others at your table for help. If you still need help, ask Keith or any of the helpers.
 
-To see an example of this lab, open the *Future Is Now Workshop - Examples* solution and edit the *Innovation Ideas Example App*.
+To see an example of this lab after you've finished, open the *Future Is Now Workshop - Examples* solution and edit the *Innovation Ideas Example App*.
 
 > [!IMPORTANT]
 > AI can get things wrong (and often does!). If it does, reword your prompt to address where it has gone wrong and try again.

@@ -10,7 +10,7 @@ Set *Future Is Now Workshop* as your [preferred solution](https://learn.microsof
 
 If you get stuck on anything, ask others at your table for help. If you still need help, ask Keith or any of the helpers.
 
-To see an example of this lab, open the *Future Is Now Workshop - Examples* solution and edit the *Innovation Ideas Example Code App*.
+To see an example of this lab after you've finished, open the *Future Is Now Workshop - Examples* solution and edit the *Innovation Ideas Example Code App*.
 
 > [!IMPORTANT]
 > AI can get things wrong (and often does!). If it does, reword your prompt to address where it has gone wrong and try again.
@@ -71,7 +71,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
     ![Code App start](./assets/code-app-start.png)
 
-1. This is the starting template for a Code App. Click the *count is 0* button to see the count increment to prove that it is interactive and works as expected. Congratulations, you've created a Code App! 🎉
+1. This is the starting template for a Code App. Select the *count is 0* button a few times to see the count increment to prove that it is interactive and works as expected. Congratulations, you've created a Code App! 🎉
 
 1. But, it's kinda basic, right. Don't worry, we'll make things a little more interesting soon...
 
@@ -155,7 +155,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 ## Let's create a new feature
 
-1. We could make more manual code changes... or we could harness the power of AI to help us! Click the *Toggle Chat* button at the top to show the chat pane on the right:
+1. We could make more manual code changes... or we could harness the power of AI to help us! Select the *Toggle Chat* button at the top to show the chat pane on the right:
 
     ![Toggle chat](./assets/toggle chat.png)
 
@@ -188,12 +188,12 @@ Remember all that software you had to install for the prerequisites? It's all fo
 1. In the chat prompt box, enter the following prompt and hit Enter:
 
     ```
-    When I click on an Innovation Idea, show a large firework animation and show message "AWESOME INNOVATION IDEA!
+    When I select an Innovation Idea, show a large firework animation and show message "AWESOME INNOVATION IDEA!
     ```
 
     - If you are asked to run commands like *npm run build*, etc then select *Allow* if you are happy to.
 
-1. When the chat has finished working, return to the app in the web browser to check the changes. Remember, we don't have to restart the app because of the cool HMR feature 😎 Try clicking on an innovation idea:
+1. When the chat has finished working, return to the app in the web browser to check the changes. Remember, we don't have to restart the app because of the cool HMR feature 😎 Try selecting an innovation idea:
 
     ![Firework animation](./assets/firework-animation.png)
 
