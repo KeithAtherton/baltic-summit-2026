@@ -16,12 +16,14 @@ If you experience issues accessing the provided workshop developer environment, 
 
 ## Software
 
-Ahead of the workshop, ensure the following are installed:
+Ahead of the workshop, ensure the following are installed for the Code Apps session.
+
+If you haven't yet installed these, consider installing them during the lunch break as we will use Code Apps in the afternoon.
 
 - [Microsoft Teams](https://www.microsoft.com/en-gb/microsoft-teams/download-app)
 - Your IDE of choice. My preference is [Visual Studio Code](https://code.visualstudio.com/)
 - [Node.js (LTS version)](https://nodejs.org/)
-- [Git](https://git-scm.com/)
+- [Git (accept all defaults)](https://git-scm.com/)
 - Power Apps CLI. My preference is to install the [Visual Studio Code extension](https://learn.microsoft.com/en-us/power-platform/developer/howto/install-vs-code-extension#install-from-visual-studio-code-extensions)
 - If you don't have one already, create a [GitHub account](https://github.com/signup)
 
