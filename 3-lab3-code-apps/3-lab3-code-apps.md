@@ -22,7 +22,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 >
 > If you're not comfortable with Code Apps and would prefer to try something more low-code, check out *Plans*.
 >
-> Plans use AI to create an entire solution which can include Dataverse tables, canvas apps, model-driven apps, Power Pages sites, Power Automate flows, and Copilot Studio agents (it's actually very cool).
+> *Plans* use AI to create an entire solution which can include Dataverse tables, canvas apps, model-driven apps, Power Pages sites, Power Automate flows, and Copilot Studio agents (it's actually very cool).
 >
 > Learn more here: https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer
 
@@ -30,18 +30,35 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. Create a folder on youe laptop to save your code, for example: C:\code
 
-1. Open Visual Studio Code, File menu, Open folder, C:\code
+1. Open Visual Studio Code, File menu, Open Folder, C:\code
 
 2. Terminal menu, New Terminal. We're going to run some scripts in terminal but it's not that scary, promise! Let's walk through it together step by step...
 
-1. Run this to take a copy of the Microsoft Code App template, place it in a new folder called *innovation-ideas-code-app*, then change to that folder:
+1. Run this to take a copy of the Microsoft Code App template, place it in a new folder called *innovation-ideas-code-app*. Comfirm all prompts to install packages:
 
     ```
     npx degit github:microsoft/PowerAppsCodeApps/templates/vite innovation-ideas-code-app
+    ```
+
+    - If you get this error...
+    
+        ```
+        npx : File C:\Program Files\nodejs\npx.ps1 cannot be loaded because running scripts is disabled on this system
+        ```
+
+    - ...then run this to permanently allows locally created scripts to run, while still requiring downloaded scripts to be signed. It only affects your user account, not the whole machine, and doesn't need admin rights.
+
+        ```
+        Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+        ```
+
+1. Run this to navigate to the new folder:
+
+    ```
     cd innovation-ideas-code-app
     ```
 
-1. Run this to install the Power Apps CLI and the project dependencies:
+1. Run this to install the Power Apps CLI and the project dependencies. Ignore any warnings about deprecated addons:
 
     ```
     npm install --global @microsoft/power-apps-cli
@@ -55,7 +72,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
     pa app init
     ```
 
-1. If prompted to *Please provide the environment ID*, get this by navigating to https://make.powerapps.com/, Settings, Session details, Environment ID. It will look like this (but will be different): `051b6fd2-6eae-ebbc-853e-18b321cb5d13`. Copy and paste this into terminal and hit Enter.
+1. If prompted to *Please provide the environment ID*, get this by navigating to https://make.powerapps.com/, Settings, Session details, Environment ID. It will look like this (but will be different): `051b6fd2-6eae-ebbc-853e-18b321cb5d13`. Copy and paste this into terminal and hit Enter. It may open your browser for authentication.
 
 1. If prompted to *Please provide the display name for the app*, enter: Innovation Ideas Code App
 
@@ -67,7 +84,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. Phew, we made it! Most of the script work is now complete.
 
-1. Terminal will show a link named *Local Play*, open this URL. In Visual Studio Code, you can Ctrl+click on the URL to open it. You should see something like this:
+1. Terminal will show a link named *Local Play*, open this URL. In Visual Studio Code, you can Ctrl+click on the URL to open it (confirm any prompts to open it). You should see something like this:
 
     ![Code App start](./assets/code-app-start.png)
 
@@ -85,7 +102,11 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. Change the code line to this: `<h1>Behold my AWESOME Code App!</h1>`
 
-1. Save the file, check the app in your browser, notice how the title has changed instantly. We didn't need to restart the app for the change to take effect. This is a useful time-saver when making changes to the app called *Hot Module Replacement (HMR)*. Make sure to impress everyone with your elite coding knowledge 😎
+1. Save the file, check the app in your browser, notice how the title has changed instantly:
+
+    ![Changed title](./assets/changed-title.png)
+
+1. We didn't need to restart the app for the change to take effect. This is a useful time-saver when making changes to the app called *Hot Module Replacement (HMR)*. Make sure to impress everyone with your elite coding knowledge 😎
 
 > [!NOTE]
 > **Hang on, what are "Vite" and "React"?**
@@ -118,7 +139,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
     ![pa solution list](./assets/pa-solution-list.png)
 
-1. Copy the *Solution ID*, it will look like `dd03b301-5e53-4106-93e3-fbaf70fd3593` (but will be different).
+1. Copy and keep a note of the *Solution ID* in Notepad (or similar), it will look like `dd03b301-5e53-4106-93e3-fbaf70fd3593` (but will be different).
 
 1. Run this (replacing `<Solution ID>` with your copied *Solution ID*) to push your code app to the solution:
 
@@ -128,7 +149,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
     
 1. Navigate to https://make.powerapps.com/, ensure the environment is set to your user name. For example, User01.
     
-1. Solutions, Future Is Now Workshop, Objects, Apps. We should now see *Innovation Ideas Code App now*!
+1. Solutions, Future Is Now Workshop, Objects, Apps. We should now see *Innovation Ideas Code App*!
 
 1. Play the app by selecting the 3-dots button for the app, Play.
 
@@ -149,7 +170,9 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. If prompted to *Please provide the organization URL*, get it by going to https://admin.powerplatform.microsoft.com/manage/environments, select your environment (for example, User01), Environment URL. It will look like https://m365x29884993-admin.crm.dynamics.com/ (but will be different). Copy and paste this into terminal and hit Enter.
 
-1. You should see result *Data source added successfully.*. In Explorer, open newly-created file `\innovation-ideas-code-app\src\generated\services\Ka_innovationideasService.ts`
+1. You should see result *Data source added successfully.*. In Explorer, open newly-created file `\innovation-ideas-code-app\src\generated\services\Ka_innovationideasService.ts`:
+
+    ![Ka_innovationideasService.ts](./assets/ka_innovationideasService-ts.png)
 
 1. We don't need to understand this code but it handles data operations with our *Innovation Idea* table. Close this file.
 
@@ -157,9 +180,9 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. We could make more manual code changes... or we could harness the power of AI to help us! Select the *Toggle Chat* button at the top to show the chat pane on the right:
 
-    ![Toggle chat](./assets/toggle chat.png)
+    ![Toggle chat](./assets/toggle-chat.png)
 
-1. In the chat prompt box, enter the following prompt and hit Enter:
+1. In the chat prompt box, enter the following prompt and hit Enter. The agent may take a while to complete the work:
 
     ```
     Change the app to display a table of Innovation Idea records.
@@ -167,28 +190,28 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
     - If you are asked to run commands like `npm run build`, etc then select *Allow* if you are happy to.
     
-1. When the chat has finished working, run the app to see the results. Run this in terminal:
+1. When the chat has finished working, run the app to see the results by running this in terminal:
 
     ```
     pa app run
     ```
 
-1. As before, open the URL labeled *Local Play* (again, in Visual Studio Code, use Ctrl+click on the URL). Your app may look like this. Try out the app:
+1. As before, open the URL labeled *Local Play* (again, in Visual Studio Code, Ctrl+click on the URL). Your app may look like this. Try out the app:
 
     ![Innovation Ideas Code App](./assets/innovation-ideas-code-app.png)
 
 ## Let's make another change
 
-1. Hang on, I've just realised that I haven't suggested something silly for a few minutes. Let's fix that... 😜
+1. Hang on, I've just realised that I haven't suggested something silly for a while. Let's fix that... 😜
 
 1. Return to Visual Studio Code, return to the chat pane on the right.
 
-1. If you see a prompt to Keep/Undo file changes, select *Keep*.
+1. If you see a prompt to Keep/Undo file changes, select *Keep* to keep the code changes.
 
 1. In the chat prompt box, enter the following prompt and hit Enter:
 
     ```
-    When I select an Innovation Idea, show a large firework animation and show message "AWESOME INNOVATION IDEA!
+    When I select an Innovation Idea, show a large firework animation and show message "AWESOME INNOVATION IDEA!"
     ```
 
     - If you are asked to run commands like *npm run build*, etc then select *Allow* if you are happy to.
