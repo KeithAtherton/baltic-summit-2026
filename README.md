@@ -18,7 +18,7 @@ Ensure you [save your work](4-save-your-work/4-save-your-work.md) at the end of 
 
 ## ☎️ Can I help?
 
-[Connect with me online](https://www.linkedin.com/in/keith-atherton/) and contact me if I can help with Power Platform, Copilot Studio or AI:
+[Connect with me online](https://www.linkedin.com/in/keith-atherton/) and contact me if I can help with Power Platform, Copilot Studio or pro-dev:
 - Training
 - Development
 - Architecture
