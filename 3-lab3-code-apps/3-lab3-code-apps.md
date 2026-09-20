@@ -32,7 +32,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. Open Visual Studio Code, File menu, Open Folder, C:\code
 
-2. Terminal menu, New Terminal. We're going to run some scripts in terminal but it's not that scary, promise! Let's walk through it together step by step...
+1. Terminal menu, New Terminal. We're going to run some scripts in terminal but it's not that scary, promise! Let's walk through it together step by step...
 
 1. Run this to take a copy of the Microsoft Code App template, place it in a new folder called *innovation-ideas-code-app*. Comfirm all prompts to install packages:
 
@@ -51,6 +51,8 @@ Remember all that software you had to install for the prerequisites? It's all fo
         ```
         Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
         ```
+
+    - Then run the ```npx degit...``` command mentioned at the start of this step.
 
 1. Run this to navigate to the new folder:
 
