@@ -10,8 +10,6 @@ Set *Future Is Now Workshop* as your [preferred solution](https://learn.microsof
 
 If you get stuck on anything, ask others at your table for help. If you still need help, ask Keith or any of the helpers.
 
-To see an example of this lab after you've finished, open the *Future Is Now Workshop - Examples* solution and edit the *Innovation Ideas Example Code App*.
-
 > [!IMPORTANT]
 > AI can get things wrong (and often does!). If it does, reword your prompt to address where it has gone wrong and try again.
 
@@ -227,5 +225,17 @@ Remember all that software you had to install for the prerequisites? It's all fo
 ## BONUS
 
 Lab completed already? Impressive! Try more chat prompts to make changes, see if you can add extra features such as creating new records, editing existing records, or even adding pie charts with bright colours 🌈
+
+## Example
+
+To see an example of this lab after you've finished, open the *Future Is Now Workshop - Examples* solution and play the *Innovation Ideas Example Code App*.
+
+If you are prompted to *Request access*, do the following:
+
+- Navigate to https://make.powerapps.com/, Solutions, *Future Is Now Workshop - Examples*, Objects, Apps.
+        
+- For *Innovation Ideas Example Code App* select the 3-dots button, Share, in the *Add a name, group, or email* input enter your username (for example, User01), change the right dropdown to Co-owner, select Share.
+
+- For *Innovation Ideas Example Code App* select the 3-dots button, select Play.
 
 [Return to home](/README.md)

@@ -4,8 +4,6 @@
 
 If you get stuck on anything, ask others at your table for help. If you still need help, ask Keith or any of the helpers.
 
-To see an example of this lab after you've finished, download the [TricityTourPlatform.zip](./assets/TricityTourPlatform.zip) project and import it by selecting +, Upload project, select the zip file.
-
 > [!IMPORTANT]
 > AI can get things wrong (and often does!). If it does, reword your prompt to address where it has gone wrong and try again.
 
@@ -174,5 +172,9 @@ To see an example of this lab after you've finished, download the [TricityTourPl
 ## BONUS
 
 Job done? Legendary work! Change this page using more prompts, see if you can add something unusual like charts, maps or animations 💥
+
+## Example
+
+To see an example of this lab after you've finished, download the [TricityTourPlatform.zip](./assets/TricityTourPlatform.zip) project and import it by selecting +, Upload project, select the zip file.
 
 [Return to home](/README.md)
