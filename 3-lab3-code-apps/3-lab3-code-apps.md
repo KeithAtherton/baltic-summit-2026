@@ -170,7 +170,7 @@ Remember all that software you had to install for the prerequisites? It's all fo
 
 1. If prompted to *Please provide the organization URL*, get it by going to https://admin.powerplatform.microsoft.com/manage/environments, select your environment (for example, User01), Environment URL. It will look like https://m365x29884993-admin.crm.dynamics.com/ (but will be different). Copy and paste this into terminal and hit Enter.
 
-1. You should see result *Data source added successfully.*. In Explorer, open newly-created file `\innovation-ideas-code-app\src\generated\services\Ka_innovationideasService.ts`:
+1. You should see result *Data source added successfully.* In Visual Studio Code Explorer on the left, select newly-created file `\src\generated\services\Ka_innovationideasService.ts` to view the code which has been created for us:
 
     ![Ka_innovationideasService.ts](./assets/ka_innovationideasService-ts.png)
 
