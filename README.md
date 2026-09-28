@@ -16,6 +16,10 @@ Ensure you have completed the [workshop prerequisites](0-workshop-prerequisites/
 
 Ensure you [save your work](4-save-your-work/4-save-your-work.md) at the end of the workshop.
 
+## Workshop Presentation
+
+[Download a copy of the workshop presentation.](assets/The%20Future%20is%20Now!%20The%20Next%20Generation%20of%20Power%20App%20Development%20Workshop%20-%20Keith%20Atherton.pdf)
+
 ## ☎️ Can I help?
 
 [Connect with me online](https://www.linkedin.com/in/keith-atherton/) and contact me if I can help with Power Platform, Copilot Studio or pro-dev:
